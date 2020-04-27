@@ -12,8 +12,8 @@ class LoginTest(unittest.TestCase):
 
     def test_login(self):
         driver = self.driver
-        username = #enter your username
-        password = #enter your password
+        username = input('Enter your user name')
+        password = input('Enter your password')
 
         emailid = 'email'
         passid = 'pass'
